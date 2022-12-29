@@ -2,8 +2,8 @@
 
 export default function Hero() {
     return(
-    <section>
-        <div className=" bg-my_bg_image h-[650px]   bg-cover bg-no-repeat bg-center"></div>
+    <section className="">
+        <div className=" bg-my_bg_image h-[400px] flex flex-grow bg-contain bg-no-repeat   "></div>
     </section>
     );
 }

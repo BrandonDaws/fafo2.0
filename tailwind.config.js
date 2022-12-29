@@ -1,4 +1,5 @@
 const { URL } = require('next/dist/compiled/@edge-runtime/primitives/url');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -20,12 +21,12 @@ module.exports = {
         'black': '#000000'
       },
       screens: {
-        'sm': '480px',
+        'xs': '480px',
+        'sm': '640px',
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
-        '2xl': '1536px',
-        
+        '2xl': '1536px'     
       }      
         },
   },
