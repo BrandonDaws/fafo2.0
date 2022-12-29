@@ -1,9 +1,9 @@
-
-
+import Image from "next/image";
+import hero from '../assets/hero.png';
 export default function Hero() {
     return(
-    <section className="">
-        <div className=" bg-my_bg_image h-[400px] flex flex-grow bg-contain bg-no-repeat   "></div>
-    </section>
+  
+        <Image src={hero} className='w-screen p-0 h-auto' alt="Hero-image"/>
+  
     );
 }
