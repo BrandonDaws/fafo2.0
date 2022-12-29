@@ -18,7 +18,8 @@ module.exports = {
         'lime': '#33FF7E',
         'purp': '#6F0F99',
         'drkblue': '#003440',
-        'black': '#000000'
+        'black': '#000000',
+        'cyan': '#06b6d4'
       },
       screens: {
         'xs': '480px',
