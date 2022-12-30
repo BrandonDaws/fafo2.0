@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Hero from '../components/hero'
 import Navbar from '../components/navbar'
+import apperal from '../assets/apparel.png'
+import wraps from '../assets/Wraps1.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +19,18 @@ export default function Home() {
       </Head>
       <Navbar></Navbar>
       <Hero></Hero>
+      <section className='w-full sm:flex'>
+        <div className='sm:w-1/2 '>
+          <a className='hover:cursor-pointer'>
+        <Image src={apperal} className='sm:h-full'/>
+        </a>
+        </div>
+        <div className='sm:w-1/2 '>
+          <a className='hover:cursor-pointer'>
+        <Image src={wraps} className='sm:h-full '/>
+        </a>
+        </div>
+      </section>
       
     </>
   )
