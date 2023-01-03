@@ -5,6 +5,7 @@ import Hero from '../components/hero'
 import Navbar from '../components/navbar'
 import apperal from '../assets/apparel.png'
 import wraps from '../assets/Wraps1.png'
+import { SiHeadspace } from 'react-icons/si'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,23 @@ export default function Home() {
           <a className='hover:cursor-pointer'>
         <Image src={wraps} className='sm:h-full '/>
         </a>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h1 className='text-4xl flex'> 
+          FA<SiHeadspace className="w-4"/>FO
+          </h1>
+          <h2>
+            Fuck Around <SiHeadspace /> Find Out 
+          </h2>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Mi bibendum neque egestas congue. Senectus et netus et malesuada. Pulvinar elementum integer enim neque volutpat ac tincidunt. Semper risus in hendrerit gravida rutrum quisque non tellus. Magna ac placerat vestibulum lectus. Massa eget egestas purus viverra accumsan. Integer eget aliquet nibh praesent tristique magna sit amet. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Urna condimentum mattis pellentesque id. Nibh nisl condimentum id venenatis. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Tellus id interdum velit laoreet id. Quisque sagittis purus sit amet volutpat consequat mauris nunc.
+
+          Leo integer malesuada nunc vel risus commodo viverra maecenas. Duis tristique sollicitudin nibh sit. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Sit amet tellus cras adipiscing enim eu. Eu facilisis sed odio morbi. Eu augue ut lectus arcu bibendum at varius vel. Suscipit adipiscing bibendum est ultricies. Accumsan lacus vel facilisis volutpat est velit.
+
+          Amet purus gravida quis blandit. Purus in mollis nunc sed id semper. Nunc sed blandit libero volutpat sed cras ornare. Quis auctor elit sed vulputate mi sit amet mauris commodo. Facilisis volutpat est velit egestas dui id ornare. Adipiscing diam donec adipiscing tristique risus nec feugiat. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Nunc congue nisi vitae suscipit tellus mauris a diam. Amet porttitor eget dolor morbi non arcu.
+          </p>
         </div>
       </section>
       

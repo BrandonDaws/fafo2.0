@@ -49,11 +49,11 @@ export default function Navbar() {
           <h1 className="text-white text-6xl font-extrabold inline-flex pb-5">FA<SiHeadspace className="w-4"/>FO</h1>
         </div>
         <div className="flex justify-evenly md:justify-around">
-          <button className="md:p-2  ">
-            <Image src={insta} alt="FAFO INSTA" width={35} height={35} />
+          <button className="w-[35px] h-[35px]  md:p-2 w-[50px] h-[50px] ">
+            <Image src={insta} alt="FAFO INSTA"  />
           </button>
-          <button className="md:p-2">
-            <Image src={faceb} alt="FAFO FACEB" width={35} height={35} />
+          <button className="w-[35px] h-[35px] md:p-2 w-[50px] h-[50px] ">
+            <Image src={faceb} alt="FAFO FACEB"  />
           </button>
           <a>
             <button className="bg-lime rounded-full p-2 font-bold flex ">
