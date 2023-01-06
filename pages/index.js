@@ -33,21 +33,28 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div>
-          <h1 className='text-4xl flex'> 
-          FA<SiHeadspace className="w-4"/>FO
+        <div className='bg-black'>
+          <h1 className='text-6xl flex justify-left pl-10 text-white'> 
+          FA<SiHeadspace className="w-4 flex"/>FO
           </h1>
-          <h2>
-            Fuck Around <SiHeadspace /> Find Out 
+          <h2 className='flex justify-left pl-10 underline text-5xl text-white '>
+            Fuck Around  Find Out 
           </h2>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Mi bibendum neque egestas congue. Senectus et netus et malesuada. Pulvinar elementum integer enim neque volutpat ac tincidunt. Semper risus in hendrerit gravida rutrum quisque non tellus. Magna ac placerat vestibulum lectus. Massa eget egestas purus viverra accumsan. Integer eget aliquet nibh praesent tristique magna sit amet. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Urna condimentum mattis pellentesque id. Nibh nisl condimentum id venenatis. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Tellus id interdum velit laoreet id. Quisque sagittis purus sit amet volutpat consequat mauris nunc.
-
-          Leo integer malesuada nunc vel risus commodo viverra maecenas. Duis tristique sollicitudin nibh sit. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Sit amet tellus cras adipiscing enim eu. Eu facilisis sed odio morbi. Eu augue ut lectus arcu bibendum at varius vel. Suscipit adipiscing bibendum est ultricies. Accumsan lacus vel facilisis volutpat est velit.
-
-          Amet purus gravida quis blandit. Purus in mollis nunc sed id semper. Nunc sed blandit libero volutpat sed cras ornare. Quis auctor elit sed vulputate mi sit amet mauris commodo. Facilisis volutpat est velit egestas dui id ornare. Adipiscing diam donec adipiscing tristique risus nec feugiat. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Nunc congue nisi vitae suscipit tellus mauris a diam. Amet porttitor eget dolor morbi non arcu.
+          </div>
+          <div className=''>
+          <p className='font-bold text-3xl  p-4  text-center text-white bg-black'>
+          When the concept of FAFO came to me, I didnt want to simply be another small clothing line. I wanted to incorporate my personal beliefs and style in the very fiber of the companies being. While the name FAFO( Fuck Around Find Out ) was meant to be a way of standing out from the crowd, I feel in love with the name more and more as it truly captured the pure choas that it my mind. <br/>
+           For so long society has tried to tell us what is acceptable and how to behave, dress and think. It has taught us to depend on the strength on others, to never take matters into our own hands. It has made us weak, in both mind and body. 
+            FAFO is meant for those who see a problem and instead of shying away or calling for help they stand their ground and face it head on. It is meant for those who are willing tot hink outside the box to find their own truths. It is meant for those who will not bend in their resolve, those who dont not far walking the long and lonely road to find their greater purpose. <br/> 
+           We live in a country founded by men who dared to challenge the status que, at the risk of death, public shame/ridicule and still forged on. Hundreds of years later we have forgotten the lessons our founding father taught us. We have forgotten how every day men and women chose to stand and fight for what they knew to be right. Human history is defined by the victor, not by the sheep. 
+            
+            FAFO is not for the sheep, nor is it for the wolves who prey on the weak. FAFO is for the wardens, the shields, the thinkers and the free minds. It is for those who are willing to fight, not because they must but for the simple reason of because it is right. It is for those who will defend the weak, regardless of race, religion, creed or orientation. It is for those who see the world for what it is, for all its wrongs and rights, and accept it but never settle. It is for those who look fear in the face and simply<br />                           
           </p>
-        </div>
+          <h3 className='font-medium text-center text-5xl bg-black text-white'>
+                                                                  "Fuck Around and Find Out"
+            </h3>
+          </div>
+      
       </section>
       
     </>

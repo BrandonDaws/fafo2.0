@@ -19,7 +19,8 @@ module.exports = {
         'purp': '#6F0F99',
         'drkblue': '#003440',
         'black': '#000000',
-        'cyan': '#06b6d4'
+        'cyan': '#06b6d4',
+        'gold': '#fbbf24'
       },
       screens: {
         'xs': '480px',
@@ -28,7 +29,7 @@ module.exports = {
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px'     
-      }      
+      },      
         },
   },
   plugins: [],
